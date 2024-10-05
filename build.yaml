@@ -18,9 +18,9 @@
 #
 ---
 include:
-  - board: nrfmicro_13
+  - board: nice_nano_v2
     shield: tps42_left
-  - board: nrfmicro_13
+  - board: nice_nano_v2
     shield: tps42_right
 
   # Settings Reset firmware
@@ -30,5 +30,5 @@ include:
   #
   # More info:
   # https://zmk.dev/docs/troubleshooting#split-keyboard-halves-unable-to-pair
-  - board: nrfmicro_13
+  - board: nice_nano_v2
     shield: settings_reset
